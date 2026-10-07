@@ -1,0 +1,7 @@
+services:
+  backend:
+    image: php:5.5-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./backend:/var/www/html
