@@ -1,3 +1,4 @@
 <?php
-header('Content-Type: application.json');
-echo json_encode(array('php_version' => PHP_VERSION));
+header('Content-Type: application/json');
+$data = require dirname(__FILE__) . '/data.php';
+echo json_encode($data);
