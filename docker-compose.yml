@@ -4,4 +4,6 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./backend:/var/www/html
+      - ./backend:/var/www/app
+    # Serve only backend/public; the rest of the code stays outside the web root.
+    command: bash -c "rm -rf /var/www/html && ln -s /var/www/app/public /var/www/html && exec apache2-foreground"
