@@ -1,0 +1,187 @@
+{
+    "ingredients": {
+        "Cucumber": 2,
+        "Olives": 2,
+        "Lettuce": 3,
+        "Meat": 6,
+        "Tomato": 6,
+        "Cheese": 8,
+        "Dough": 10
+    },
+    "recipes": [
+        {
+            "name": "Burger",
+            "feeds": 1,
+            "ingredients": {
+                "Meat": 1,
+                "Lettuce": 1,
+                "Tomato": 1,
+                "Cheese": 1,
+                "Dough": 1
+            }
+        },
+        {
+            "name": "Pie",
+            "feeds": 1,
+            "ingredients": {
+                "Dough": 2,
+                "Meat": 2
+            }
+        },
+        {
+            "name": "Sandwich",
+            "feeds": 1,
+            "ingredients": {
+                "Dough": 1,
+                "Cucumber": 1
+            }
+        },
+        {
+            "name": "Pasta",
+            "feeds": 2,
+            "ingredients": {
+                "Dough": 2,
+                "Tomato": 1,
+                "Cheese": 2,
+                "Meat": 1
+            }
+        },
+        {
+            "name": "Salad",
+            "feeds": 3,
+            "ingredients": {
+                "Lettuce": 2,
+                "Tomato": 2,
+                "Cucumber": 1,
+                "Cheese": 2,
+                "Olives": 1
+            }
+        },
+        {
+            "name": "Pizza",
+            "feeds": 4,
+            "ingredients": {
+                "Dough": 3,
+                "Tomato": 2,
+                "Cheese": 3,
+                "Olives": 1
+            }
+        }
+    ],
+    "result": {
+        "max_fed": 12,
+        "best": {
+            "meals": {
+                "Burger": 1,
+                "Pie": 2,
+                "Pasta": 1,
+                "Salad": 1,
+                "Pizza": 1
+            },
+            "leftovers": {
+                "Cucumber": 1,
+                "Olives": 0,
+                "Lettuce": 0,
+                "Meat": 0,
+                "Tomato": 0,
+                "Cheese": 0,
+                "Dough": 0
+            },
+            "leftover_total": 1
+        },
+        "solutions": [
+            {
+                "meals": {
+                    "Burger": 1,
+                    "Pie": 2,
+                    "Pasta": 1,
+                    "Salad": 1,
+                    "Pizza": 1
+                },
+                "leftovers": {
+                    "Cucumber": 1,
+                    "Olives": 0,
+                    "Lettuce": 0,
+                    "Meat": 0,
+                    "Tomato": 0,
+                    "Cheese": 0,
+                    "Dough": 0
+                },
+                "leftover_total": 1
+            },
+            {
+                "meals": {
+                    "Burger": 1,
+                    "Pie": 1,
+                    "Sandwich": 1,
+                    "Pasta": 1,
+                    "Salad": 1,
+                    "Pizza": 1
+                },
+                "leftovers": {
+                    "Cucumber": 0,
+                    "Olives": 0,
+                    "Lettuce": 0,
+                    "Meat": 2,
+                    "Tomato": 0,
+                    "Cheese": 0,
+                    "Dough": 1
+                },
+                "leftover_total": 3
+            },
+            {
+                "meals": {
+                    "Pie": 2,
+                    "Sandwich": 1,
+                    "Pasta": 1,
+                    "Salad": 1,
+                    "Pizza": 1
+                },
+                "leftovers": {
+                    "Cucumber": 0,
+                    "Olives": 0,
+                    "Lettuce": 1,
+                    "Meat": 1,
+                    "Tomato": 1,
+                    "Cheese": 1,
+                    "Dough": 0
+                },
+                "leftover_total": 4
+            },
+            {
+                "meals": {
+                    "Burger": 2,
+                    "Sandwich": 2,
+                    "Pizza": 2
+                },
+                "leftovers": {
+                    "Cucumber": 0,
+                    "Olives": 0,
+                    "Lettuce": 1,
+                    "Meat": 4,
+                    "Tomato": 0,
+                    "Cheese": 0,
+                    "Dough": 0
+                },
+                "leftover_total": 5
+            },
+            {
+                "meals": {
+                    "Sandwich": 2,
+                    "Pasta": 1,
+                    "Pizza": 2
+                },
+                "leftovers": {
+                    "Cucumber": 0,
+                    "Olives": 0,
+                    "Lettuce": 3,
+                    "Meat": 5,
+                    "Tomato": 1,
+                    "Cheese": 0,
+                    "Dough": 0
+                },
+                "leftover_total": 9
+            }
+        ]
+    }
+}

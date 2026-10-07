@@ -42,7 +42,7 @@ export class AppComponent implements OnInit {
 
   describe(meals: Quantities): string {
     return Object.keys(meals)
-      .map((name) => `${meals[name]} x ${name}`)
+      .map((name) => `${meals[name]} \u00D7 ${name}`)
       .join(', ');
   }
 

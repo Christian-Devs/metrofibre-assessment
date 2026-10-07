@@ -31,7 +31,7 @@
       <h3>Recommended combinations</h3>
       <ul class="meals">
         <li *ngFor="let meal of best.meals | keyvalue: keepOrder">
-          {{ meal.value }} x {{meal.key}}
+          {{ meal.value }} &times; {{meal.key}}
         </li>
       </ul>
 
@@ -39,7 +39,7 @@
       <p *ngIf="best.leftover_total === 0">Nothing. Every ingredient is used.</p>
       <ul class="meals" *ngIf="best.leftover_total > 0">
         <ng-container *ngFor="let item of best.leftovers | keyvalue: keepOrder">
-          <li *ngIf="item.value > 0">{{ item.value }} × {{ item.key }}</li>
+          <li *ngIf="item.value > 0">{{ item.value }} &times; {{ item.key }}</li>
         </ng-container>
       </ul>
 
