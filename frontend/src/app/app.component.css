@@ -1,0 +1,118 @@
+.page {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0 0 12px;
+    font-size: 1.15rem;
+}
+
+h3 {
+    margin: 16px 0 6px;
+    font-size: 1rem;
+}
+
+.subtitle,
+.note {
+    color: #5b6770;
+}
+
+.note {
+    font-size: 0.875rem;
+    font-weight: normal;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #dde3e8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.stock {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 12px;
+}
+
+.stock label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.9rem;
+}
+
+.stock input {
+    padding: 8px;
+    border: 1px solid #b8c2ca;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+button {
+    padding: 10px 16px;
+    border: 1px solid #1f5fa8;
+    border-radius: 6px;
+    background: #1f5fa8;
+    color: #fff;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+button.secondary {
+    background: #fff;
+    color: #1f5fa8;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.error {
+    margin: 12px 0 0;
+    color: #b3261e;
+}
+
+.headline {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.headline strong {
+    font-size: 2.2rem;
+    color: #2e7d32;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.alternatives li {
+    margin-bottom: 4px;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 12px;
+}
+
+.recipes h3 {
+    margin-top: 0;
+}
